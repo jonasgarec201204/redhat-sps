@@ -1,6 +1,6 @@
 class file_editor:
     def __init__(self, file:str):
-        self.file = file;
+        self.file = file
     def read_content(self) -> str:
         content = ""
         with open(self.file, encoding="utf-8") as file:
