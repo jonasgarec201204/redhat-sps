@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring,missing-function-docstring
 x = 10
 def factorial(value):
     result = 1
