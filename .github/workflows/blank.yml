@@ -36,3 +36,5 @@ jobs:
           echo test, and deploy your project.
       - name: Run a one-line script
         run: ./rhsps/testSimpleWorkflow.sh
+      - name: Test Reverse String
+        run: python3 ./rhsps/cv10test.py
